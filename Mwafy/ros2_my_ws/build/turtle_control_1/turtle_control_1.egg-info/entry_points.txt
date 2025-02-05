@@ -1,0 +1,7 @@
+[console_scripts]
+drawing_A = turtle_control_1.drawing_A:main
+drawing_D = turtle_control_1.drawing_D:main
+drawing_E = turtle_control_1.drawing_E:main
+drawing_H = turtle_control_1.drawing_H:main
+drawing_M = turtle_control_1.drawing_M:main
+
