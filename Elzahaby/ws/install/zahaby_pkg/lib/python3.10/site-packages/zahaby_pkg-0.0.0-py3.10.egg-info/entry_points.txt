@@ -1,0 +1,3 @@
+[console_scripts]
+turt_cont = zahaby_pkg.turt_cont:main
+

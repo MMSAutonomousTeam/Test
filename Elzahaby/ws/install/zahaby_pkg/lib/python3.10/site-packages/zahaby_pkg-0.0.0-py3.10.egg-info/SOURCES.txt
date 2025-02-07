@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/zahaby_pkg/zahaby_pkg.egg-info/PKG-INFO
+../../build/zahaby_pkg/zahaby_pkg.egg-info/SOURCES.txt
+../../build/zahaby_pkg/zahaby_pkg.egg-info/dependency_links.txt
+../../build/zahaby_pkg/zahaby_pkg.egg-info/entry_points.txt
+../../build/zahaby_pkg/zahaby_pkg.egg-info/requires.txt
+../../build/zahaby_pkg/zahaby_pkg.egg-info/top_level.txt
+../../build/zahaby_pkg/zahaby_pkg.egg-info/zip-safe
+resource/zahaby_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+zahaby_pkg/__init__.py
+zahaby_pkg/turt_cont.py

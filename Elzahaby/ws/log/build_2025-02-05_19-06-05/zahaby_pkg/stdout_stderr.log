@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/zahaby_pkg/zahaby_pkg.egg-info
+writing ../../build/zahaby_pkg/zahaby_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/zahaby_pkg/zahaby_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/zahaby_pkg/zahaby_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/zahaby_pkg/zahaby_pkg.egg-info/requires.txt
+writing top-level names to ../../build/zahaby_pkg/zahaby_pkg.egg-info/top_level.txt
+writing manifest file '../../build/zahaby_pkg/zahaby_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/zahaby_pkg/zahaby_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/zahaby_pkg/zahaby_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build
+creating /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib
+creating /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg
+copying zahaby_pkg/__init__.py -> /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg
+copying zahaby_pkg/turt_cont.py -> /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg
+running install
+running install_lib
+creating /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg
+copying /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg/__init__.py -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg
+copying /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg/turt_cont.py -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg
+byte-compiling /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg/turt_cont.py to turt_cont.cpython-310.pyc
+running install_data
+creating /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/ament_index
+creating /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/ament_index/resource_index
+creating /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/ament_index/resource_index/packages
+copying resource/zahaby_pkg -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/zahaby_pkg
+running install_egg_info
+Copying ../../build/zahaby_pkg/zahaby_pkg.egg-info to /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_cont script to /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/zahaby_pkg
+writing list of installed files to '/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/install.log'

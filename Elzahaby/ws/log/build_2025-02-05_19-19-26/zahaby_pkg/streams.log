@@ -1,0 +1,24 @@
+[0.705s] Invoking command in '/home/zahaby/Test/Elzahaby/ws/src/zahaby_pkg': PYTHONPATH=/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zahaby_pkg build --build-base /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build install --record /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/install.log --single-version-externally-managed install_data
+[0.989s] running egg_info
+[0.989s] writing ../../build/zahaby_pkg/zahaby_pkg.egg-info/PKG-INFO
+[0.990s] writing dependency_links to ../../build/zahaby_pkg/zahaby_pkg.egg-info/dependency_links.txt
+[0.990s] writing entry points to ../../build/zahaby_pkg/zahaby_pkg.egg-info/entry_points.txt
+[0.990s] writing requirements to ../../build/zahaby_pkg/zahaby_pkg.egg-info/requires.txt
+[0.990s] writing top-level names to ../../build/zahaby_pkg/zahaby_pkg.egg-info/top_level.txt
+[0.993s] reading manifest file '../../build/zahaby_pkg/zahaby_pkg.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/zahaby_pkg/zahaby_pkg.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.995s] copying zahaby_pkg/turt_cont.py -> /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg
+[0.995s] running install
+[0.995s] running install_lib
+[0.996s] copying /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build/lib/zahaby_pkg/turt_cont.py -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg
+[0.996s] byte-compiling /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg/turt_cont.py to turt_cont.cpython-310.pyc
+[0.997s] running install_data
+[0.997s] running install_egg_info
+[0.999s] removing '/home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.000s] Copying ../../build/zahaby_pkg/zahaby_pkg.egg-info to /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby_pkg-0.0.0-py3.10.egg-info
+[1.001s] running install_scripts
+[1.023s] Installing turtle_cont script to /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/zahaby_pkg
+[1.023s] writing list of installed files to '/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/install.log'
+[1.053s] Invoked command in '/home/zahaby/Test/Elzahaby/ws/src/zahaby_pkg' returned '0': PYTHONPATH=/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zahaby_pkg build --build-base /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build install --record /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/install.log --single-version-externally-managed install_data

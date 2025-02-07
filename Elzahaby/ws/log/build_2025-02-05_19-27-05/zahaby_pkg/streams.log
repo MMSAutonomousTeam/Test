@@ -1,0 +1,19 @@
+[0.709s] Invoking command in '/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg': PYTHONPATH=/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build --no-deps symlink_data --force
+[1.013s] running develop
+[1.194s] running egg_info
+[1.194s] writing zahaby_pkg.egg-info/PKG-INFO
+[1.194s] writing dependency_links to zahaby_pkg.egg-info/dependency_links.txt
+[1.195s] writing entry points to zahaby_pkg.egg-info/entry_points.txt
+[1.195s] writing requirements to zahaby_pkg.egg-info/requires.txt
+[1.195s] writing top-level names to zahaby_pkg.egg-info/top_level.txt
+[1.198s] reading manifest file 'zahaby_pkg.egg-info/SOURCES.txt'
+[1.199s] writing manifest file 'zahaby_pkg.egg-info/SOURCES.txt'
+[1.200s] running build_ext
+[1.201s] Creating /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages/zahaby-pkg.egg-link (link to .)
+[1.201s] Installing turtle_cont script to /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/zahaby_pkg
+[1.202s] 
+[1.202s] Installed /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg
+[1.202s] running symlink_data
+[1.202s] symbolically linking /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/resource/zahaby_pkg -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/ament_index/resource_index/packages
+[1.202s] symbolically linking /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/package.xml -> /home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/share/zahaby_pkg
+[1.236s] Invoked command in '/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg' returned '0': PYTHONPATH=/home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zahaby/Test/Elzahaby/ws/install/zahaby_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zahaby/Test/Elzahaby/ws/build/zahaby_pkg/build --no-deps symlink_data --force
