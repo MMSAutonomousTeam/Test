@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name",
+        "/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages",
+        "/home/osama/osama_ws/build/robot_controller",
+        "/home/osama/osama_ws/install/robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name",
+        "/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages",
+        "/home/osama/osama_ws/build/robot_controller",
+        "/home/osama/osama_ws/install/robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,23 @@
+[0.574s] Invoking command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build --no-deps symlink_data
+[0.826s] running develop
+[0.987s] running egg_info
+[0.987s] creating write_my_name.egg-info
+[0.987s] writing write_my_name.egg-info/PKG-INFO
+[0.988s] writing dependency_links to write_my_name.egg-info/dependency_links.txt
+[0.988s] writing entry points to write_my_name.egg-info/entry_points.txt
+[0.988s] writing requirements to write_my_name.egg-info/requires.txt
+[0.988s] writing top-level names to write_my_name.egg-info/top_level.txt
+[0.988s] writing manifest file 'write_my_name.egg-info/SOURCES.txt'
+[0.990s] reading manifest file 'write_my_name.egg-info/SOURCES.txt'
+[0.990s] writing manifest file 'write_my_name.egg-info/SOURCES.txt'
+[0.992s] running build_ext
+[0.992s] Creating /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write-my-name.egg-link (link to .)
+[0.993s] 
+[0.993s] Installed /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name
+[0.993s] running symlink_data
+[0.993s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/ament_index
+[0.993s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/ament_index/resource_index
+[0.993s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/ament_index/resource_index/packages
+[0.994s] symbolically linking /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/resource/write_my_name -> /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/ament_index/resource_index/packages
+[0.994s] symbolically linking /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/package.xml -> /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/write_my_name
+[1.019s] Invoked command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name' returned '0': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build --no-deps symlink_data

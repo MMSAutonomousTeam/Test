@@ -1,0 +1,21 @@
+[0.584s] Invoking command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/src/write_my_name': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/write_my_name build --build-base /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build install --record /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/install.log --single-version-externally-managed install_data
+[0.818s] running egg_info
+[0.819s] writing ../../build/write_my_name/write_my_name.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/write_my_name/write_my_name.egg-info/dependency_links.txt
+[0.820s] writing entry points to ../../build/write_my_name/write_my_name.egg-info/entry_points.txt
+[0.820s] writing requirements to ../../build/write_my_name/write_my_name.egg-info/requires.txt
+[0.820s] writing top-level names to ../../build/write_my_name/write_my_name.egg-info/top_level.txt
+[0.822s] reading manifest file '../../build/write_my_name/write_my_name.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../build/write_my_name/write_my_name.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] running install
+[0.823s] running install_lib
+[0.825s] running install_data
+[0.825s] running install_egg_info
+[0.826s] removing '/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name-0.0.0-py3.10.egg-info' (and everything under it)
+[0.827s] Copying ../../build/write_my_name/write_my_name.egg-info to /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name-0.0.0-py3.10.egg-info
+[0.828s] running install_scripts
+[0.849s] Installing name_drawer script to /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/write_my_name
+[0.850s] writing list of installed files to '/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/install.log'
+[0.873s] Invoked command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/src/write_my_name' returned '0': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/write_my_name build --build-base /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build install --record /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/install.log --single-version-externally-managed install_data

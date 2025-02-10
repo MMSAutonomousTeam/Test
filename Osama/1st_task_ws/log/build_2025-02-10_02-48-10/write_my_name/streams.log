@@ -1,0 +1,36 @@
+[0.576s] Invoking command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build
+[0.826s] running develop
+[0.981s] Removing /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write-my-name.egg-link (link to .)
+[1.007s] Invoked command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name' returned '0': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build
+[1.009s] Invoking command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/src/write_my_name': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/write_my_name build --build-base /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build install --record /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/install.log --single-version-externally-managed install_data --force
+[1.238s] running egg_info
+[1.239s] writing ../../build/write_my_name/write_my_name.egg-info/PKG-INFO
+[1.239s] writing dependency_links to ../../build/write_my_name/write_my_name.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/write_my_name/write_my_name.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../build/write_my_name/write_my_name.egg-info/requires.txt
+[1.240s] writing top-level names to ../../build/write_my_name/write_my_name.egg-info/top_level.txt
+[1.241s] reading manifest file '../../build/write_my_name/write_my_name.egg-info/SOURCES.txt'
+[1.242s] writing manifest file '../../build/write_my_name/write_my_name.egg-info/SOURCES.txt'
+[1.243s] running build
+[1.243s] running build_py
+[1.243s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build
+[1.243s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build/lib
+[1.243s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build/lib/write_my_name
+[1.243s] copying write_my_name/__init__.py -> /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build/lib/write_my_name
+[1.243s] copying write_my_name/osama_pub.py -> /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build/lib/write_my_name
+[1.243s] running install
+[1.244s] running install_lib
+[1.245s] creating /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name
+[1.245s] copying /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build/lib/write_my_name/__init__.py -> /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name
+[1.245s] copying /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build/lib/write_my_name/osama_pub.py -> /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name
+[1.246s] byte-compiling /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name/__init__.py to __init__.cpython-310.pyc
+[1.246s] byte-compiling /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name/osama_pub.py to osama_pub.cpython-310.pyc
+[1.247s] running install_data
+[1.247s] copying resource/write_my_name -> /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/ament_index/resource_index/packages
+[1.247s] copying package.xml -> /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/share/write_my_name
+[1.247s] running install_egg_info
+[1.249s] Copying ../../build/write_my_name/write_my_name.egg-info to /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages/write_my_name-0.0.0-py3.10.egg-info
+[1.250s] running install_scripts
+[1.271s] Installing name_drawer script to /home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/write_my_name
+[1.271s] writing list of installed files to '/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/install.log'
+[1.294s] Invoked command in '/home/osama/my_tasks/Test/Osama/1st_task_ws/src/write_my_name' returned '0': PYTHONPATH=/home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osama/my_tasks/Test/Osama/1st_task_ws/install/write_my_name/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/write_my_name build --build-base /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/build install --record /home/osama/my_tasks/Test/Osama/1st_task_ws/build/write_my_name/install.log --single-version-externally-managed install_data --force

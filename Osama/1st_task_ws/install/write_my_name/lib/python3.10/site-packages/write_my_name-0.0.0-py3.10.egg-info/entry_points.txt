@@ -1,0 +1,3 @@
+[console_scripts]
+name_drawer = write_my_name.osama_pub:main
+
