@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b6d7e333635753ec3aee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "letters_drawing_2__py",
+					"jsonFile" : "directory-letters_drawing_2__py-20a2e75fbd3c9c754f24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/letters_drawing_2/letters_drawing_2__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "letters_drawing_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_letters_drawing_2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_letters_drawing_2_egg-69141a495449059c7d0f.json",
+					"name" : "ament_cmake_python_build_letters_drawing_2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_letters_drawing_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_letters_drawing_2-4fa99cf8d31e056fadcf.json",
+					"name" : "ament_cmake_python_copy_letters_drawing_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2-48d87fcc5c5a41b89b87.json",
+					"name" : "letters_drawing_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__cpp-d7ed097eace0bada6b5a.json",
+					"name" : "letters_drawing_2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "letters_drawing_2__py::@f7955d250be3d140b028",
+					"jsonFile" : "target-letters_drawing_2__py-09a37e2f2ab89725e645.json",
+					"name" : "letters_drawing_2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_generator_c-20032b19fec639b56d40.json",
+					"name" : "letters_drawing_2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_generator_py-2c69bb2bc5a47a647978.json",
+					"name" : "letters_drawing_2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_c-c125e583c0b37b6c2268.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_c__pyext-4f6dbe8fdaf4f12e8144.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_cpp-d08b6c132aeaa908aac2.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_fastrtps_c-b6aebf5bcd482c33c707.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_fastrtps_c__pyext-a7a25ed2f62deb5509eb.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_fastrtps_cpp-4af1b594bddab0e3c44a.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_introspection_c-f0c920094d80ca59a2eb.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_introspection_c__pyext-c35c9b6306bf6b6c8fda.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2__rosidl_typesupport_introspection_cpp-a90a58631b4cce347fad.json",
+					"name" : "letters_drawing_2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "letters_drawing_2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-letters_drawing_2_uninstall-885bd85e5328789b19ff.json",
+					"name" : "letters_drawing_2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3010e50caf9f1e0e338f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/letters_drawing_2",
+		"source" : "/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/letters_drawing_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

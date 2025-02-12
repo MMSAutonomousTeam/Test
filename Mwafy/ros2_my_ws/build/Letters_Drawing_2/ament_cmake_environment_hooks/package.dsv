@@ -1,0 +1,4 @@
+source;share/Letters_Drawing_2/local_setup.bash
+source;share/Letters_Drawing_2/local_setup.dsv
+source;share/Letters_Drawing_2/local_setup.sh
+source;share/Letters_Drawing_2/local_setup.zsh

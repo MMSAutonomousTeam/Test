@@ -1,0 +1,44 @@
+[0.014s] Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/Letters_Drawing_2 -DCMAKE_INSTALL_PREFIX=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.334s] -- Detecting C compiler ABI info
+[0.433s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.518s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.526s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.845s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.846s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.892s] WARNING: Package name "Letters_Drawing_2" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.915s] -- Added test 'lint_cmake' to check CMake code style
+[0.916s] -- Added test 'xmllint' to check XML markup files
+[0.917s] -- Configuring done
+[0.920s] -- Generating done
+[0.921s] -- Build files have been written to: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2
+[0.925s] Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/Letters_Drawing_2 -DCMAKE_INSTALL_PREFIX=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2
+[0.928s] Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2 -- -j16 -l16
+[0.970s] Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2 -- -j16 -l16
+[0.978s] Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2
+[0.984s] -- Install configuration: ""
+[0.984s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/ament_index/resource_index/package_run_dependencies/Letters_Drawing_2
+[0.984s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/ament_index/resource_index/parent_prefix_path/Letters_Drawing_2
+[0.984s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/environment/ament_prefix_path.sh
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/environment/ament_prefix_path.dsv
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/environment/path.sh
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/environment/path.dsv
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/local_setup.bash
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/local_setup.sh
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/local_setup.zsh
+[0.985s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/local_setup.dsv
+[0.986s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.dsv
+[0.986s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/ament_index/resource_index/packages/Letters_Drawing_2
+[0.986s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/cmake/Letters_Drawing_2Config.cmake
+[0.986s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/cmake/Letters_Drawing_2Config-version.cmake
+[0.986s] -- Installing: /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.xml
+[0.987s] Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2

@@ -1,0 +1,3 @@
+std_msgs/String turtle_name
+geometry_msgs/Point target_coords
+std_msgs/String letter 

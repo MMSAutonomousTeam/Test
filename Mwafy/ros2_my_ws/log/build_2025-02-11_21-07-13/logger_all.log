@@ -1,0 +1,188 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77ba9dc36800>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77ba9dc362f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77ba9dc362f0>>)
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.201s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Letters_Drawing_2) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Letters_Drawing_2' with type 'ros.ament_cmake' and name 'Letters_Drawing_2'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_1) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_control_1' with type 'ros.ament_python' and name 'turtle_control_1'
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'Letters_Drawing_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'Letters_Drawing_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2', 'merge_install': False, 'path': '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/Letters_Drawing_2', 'symlink_install': False, 'test_result_base': None}
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_control_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1', 'merge_install': False, 'path': '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1', 'symlink_install': False, 'test_result_base': None}
+[0.265s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/Letters_Drawing_2' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/Letters_Drawing_2'
+[0.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1' with build type 'ament_python'
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control_1', 'ament_prefix_path')
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/hook/ament_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/hook/ament_prefix_path.dsv'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/hook/ament_prefix_path.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2 -- -j16 -l16
+[0.519s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2 -- -j16 -l16
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2
+[0.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Letters_Drawing_2)
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2' for CMake module files
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2' for CMake config files
+[0.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('Letters_Drawing_2', 'cmake_prefix_path')
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/hook/cmake_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/hook/cmake_prefix_path.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/hook/cmake_prefix_path.sh'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/bin'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/lib/pkgconfig/Letters_Drawing_2.pc'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/lib/python3.10/site-packages'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/bin'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.bash'
+[0.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/colcon-core/packages/Letters_Drawing_2)
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Letters_Drawing_2)
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2' for CMake module files
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2' for CMake config files
+[0.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('Letters_Drawing_2', 'cmake_prefix_path')
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/hook/cmake_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/hook/cmake_prefix_path.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/hook/cmake_prefix_path.sh'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/bin'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/lib/pkgconfig/Letters_Drawing_2.pc'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/lib/python3.10/site-packages'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/bin'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.ps1'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.dsv'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.sh'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.bash'
+[0.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/Letters_Drawing_2/package.zsh'
+[0.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/Letters_Drawing_2/share/colcon-core/packages/Letters_Drawing_2)
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1': PYTHONPATH=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_1 build --build-base /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/build install --record /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/install.log --single-version-externally-managed install_data
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1' for CMake module files
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1' returned '0': PYTHONPATH=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_1 build --build-base /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/build install --record /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/install.log --single-version-externally-managed install_data
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1' for CMake config files
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/pkgconfig/turtle_control_1.pc'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages'
+[1.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control_1', 'pythonpath')
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/hook/pythonpath.ps1'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/hook/pythonpath.dsv'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/hook/pythonpath.sh'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/bin'
+[1.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_control_1)
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/package.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/package.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/turtle_control_1/package.zsh'
+[1.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/share/colcon-core/packages/turtle_control_1)
+[1.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.113s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.117s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.130s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/local_setup.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/_local_setup_util_ps1.py'
+[1.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/setup.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/local_setup.sh'
+[1.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/_local_setup_util_sh.py'
+[1.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/setup.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/local_setup.bash'
+[1.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/setup.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/local_setup.zsh'
+[1.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/setup.zsh'

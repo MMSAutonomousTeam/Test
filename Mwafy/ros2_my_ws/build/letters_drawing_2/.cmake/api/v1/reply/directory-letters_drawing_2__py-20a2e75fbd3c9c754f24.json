@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "letters_drawing_2__py",
+		"source" : "/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/letters_drawing_2/letters_drawing_2__py"
+	}
+}

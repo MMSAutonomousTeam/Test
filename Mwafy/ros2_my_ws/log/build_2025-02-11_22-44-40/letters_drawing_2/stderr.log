@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/letters_drawing_2/scripts/turtle_publisher.py":
+  No such file or directory.
+
+[0m

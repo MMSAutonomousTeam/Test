@@ -1,0 +1,4 @@
+source;share/letters_drawing_2/environment/ament_prefix_path.sh
+source;share/letters_drawing_2/environment/library_path.sh
+source;share/letters_drawing_2/environment/path.sh
+source;share/letters_drawing_2/environment/pythonpath.sh

@@ -1,0 +1,4 @@
+Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2 -- -j16 -l16
+Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2 -- -j16 -l16
+Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2
+Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/Letters_Drawing_2
