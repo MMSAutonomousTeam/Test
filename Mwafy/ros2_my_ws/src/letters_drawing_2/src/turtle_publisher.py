@@ -26,6 +26,8 @@ class TurtlePublisher(Node):
             printed = False
         self.timer = self.create_timer(1.0, self.publish_message)  # Publish every second
         self.step_index0 = 0
+        self.timer = self.create_timer(1.0, self.publish_message1)  # Publish every second
+        self.step_index1 = 0
 
     def process_string(self, input_string):
         for char in input_string:
@@ -39,31 +41,99 @@ class TurtlePublisher(Node):
         message.turtle_name = "Turtle_1"
         message.letter = self.queue[0] 
         
-        # Modify the message to include drawing behavior for letter "A"
-        message = self.draw_A(message,0)  # Modify the message to draw the letter "A"
+        if(message.letter == 'A' or message.letter == 'a') :
+            message = self.draw_A(message,0)  # Modify the message to draw the letter "A"
+
         message.target_coords.z = 0.0
         self.publisher_.publish(message)
         self.get_logger().info(f'Published message: {message}')
+        
+    def publish_message1(self):
+        # Create message to be published
+        self.step_index1 += 1
+        message1 = TurtleInfo()
+        message1.turtle_name = "Turtle_2"
+        message1.letter = self.queue[1] 
+        
+        if(message1.letter == 'A' or message1.letter == 'a') :
+            message1 = self.draw_A(message1,1)  # Modify the message to draw the letter "A"
+        
+        elif(message1.letter == 'H' or message1.letter == 'h') :
+            message1 = self.draw_H(message1,1)  # Modify the message to draw the letter "A"
+        
+
+        message1.target_coords.z = 0.0
+        self.publisher_.publish(message1)
+        self.get_logger().info(f'Published message: {message1}')
     
 
     def draw_A(self , message , letter_num) :
         turtle_name = message.turtle_name
         if letter_num == 0 :
             x_s = 0.5
-            y_s = 0.5
-        if self.step_index0 <= 10 :
-            message.target_coords.x = x_s + 1.5
-            message.target_coords.y = y_s + 7.0
-        elif self.step_index0 > 10 or self.step_index0 <=20 :
-            message.target_coords.x += x_s + 1.0
-            message.target_coords.y -= y_s 
-        elif self.step_index0 > 20 or self.step_index0 <= 30 :
-            message.target_coords.x += x_s + 0.5
-            message.target_coords.y += y_s + 3.0 
-        else :
+            y_s = 1.0
+        elif letter_num == 1 :
+            x_s = 3.0
+            y_s = 1.0
+        elif letter_num == 2 :
+            x_s = 5.0
+            y_s = 1.0
+        elif letter_num == 3 :
+            x_s = 7.0
+            y_s = 1.0     
+        elif letter_num == 4 :
+            x_s = 9.0
+            y_s = 1.0
+        else : 
             pass
 
+        if self.step_index0 < 5 :
+            message.target_coords.x = x_s + 1.5
+            message.target_coords.y = y_s + 7.0
+        elif self.step_index0 >= 5 and self.step_index0 <= 10 :
+            message.target_coords.x = x_s + 2.5
+            message.target_coords.y = y_s + 2.0
+        elif self.step_index0 > 10 and self.step_index0 < 15 :
+            message.target_coords.x = x_s + 2.5
+            message.target_coords.y = y_s + 3.0
+        elif self.step_index0 >= 15 :
+            message.target_coords.x = x_s 
+            message.target_coords.y = y_s + 4.0
+        return message
 
+
+    def draw_H(self , message , letter_num) :
+        turtle_name = message.turtle_name
+        if letter_num == 0 :
+            x_s = 0.5
+            y_s = 1.0
+        elif letter_num == 1 :
+            x_s = 3.0
+            y_s = 1.0
+        elif letter_num == 2 :
+            x_s = 5.0
+            y_s = 1.0
+        elif letter_num == 3 :
+            x_s = 7.0
+            y_s = 1.0     
+        elif letter_num == 4 :
+            x_s = 9.0
+            y_s = 1.0
+        else : 
+            pass
+
+        if self.step_index1 < 5 :
+            message.target_coords.x = x_s 
+            message.target_coords.y = y_s + 7.0
+        elif self.step_index1 >= 5 and self.step_index1 <= 10 :
+            message.target_coords.x = x_s 
+            message.target_coords.y = y_s + 3.5
+        elif self.step_index1 > 10 and self.step_index1 < 15 :
+            message.target_coords.x = x_s + 2.5
+            message.target_coords.y = y_s + 3.5
+        elif self.step_index1 >= 15 :
+            message.target_coords.x = x_s + 2.5
+            message.target_coords.y = y_s 
         return message
            
     def spawnturtle_request(self):
