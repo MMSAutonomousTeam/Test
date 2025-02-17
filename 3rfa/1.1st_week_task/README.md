@@ -4,6 +4,19 @@
 
 This ROS 2 project uses `turtlesim` to draw the name **"ARAFA"** using multiple turtles. Each letter is drawn by a different turtle with a unique color. The program handles spawning, killing, pen color setting, and movement of turtles to create the desired letters.
 
+## Table of Contents
+
+- [Features](#Features)
+- [Dependencies](#Dependencies)
+- [Installation](#Installation)
+  - [Running the Program](#Running-the-Program)
+  - [How It Works](#How-It-Works)
+  - [Code Structure](#Code-Structure)
+- [Code Explanation](#Code-Explanation)
+- [Output](#output)
+- [References](#references)
+- [Author](#Author)
+
 ## 📌 Features
 
 * 🐢 Spawns 5 turtles at specific positions.
@@ -61,11 +74,11 @@ ros2 run turtle_package my_name
 
 ## 📂 Code Structure
 
-* 🔹 `<span><strong>spawn_turt(x, y, theta, name)</strong></span>` → Spawns a turtle at given coordinates.
-* 🔹 `<span><strong>kill_turt(name)</strong></span>` → Kills an existing turtle.
-* 🔹 `<span><strong>set_pen(r, g, b, name)</strong></span>` → Changes pen color for a turtle.
-* 🔹 `<span><strong>move_turtle(name, x, y, theta)</strong></span>` → Moves a turtle in a specific direction.
-* 🔹 `<span><strong>draw_A(name)</strong></span>`, `<span><strong>draw_R(name)</strong></span>`, `<span><strong>draw_F(name)</strong></span>` → Functions to draw letters.
+* 🔹 **`spawn_turt(x, y, theta, name)`** → Spawns a turtle at given coordinates.
+* 🔹 **`kill_turt(name)`** → Kills an existing turtle.
+* 🔹 **`set_pen(r, g, b, name)`** → Changes pen color for a turtle.
+* 🔹 **`move_turtle(name, x, y, theta)`** → Moves a turtle in a specific direction.
+* 🔹 **`draw_A(name)`**, **`draw_R(name)`**, **`draw_F(name)`** → Functions to draw letters.
 
 ## 📜 Code Explanation
 
