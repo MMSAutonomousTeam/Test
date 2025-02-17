@@ -4,18 +4,6 @@
 
 This ROS 2 project uses `turtlesim` to draw the name **"ARAFA"** using multiple turtles. Each letter is drawn by a different turtle with a unique color. The program handles spawning, killing, pen color setting, and movement of turtles to create the desired letters.
 
-## Table of Contents
-
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Running the Program](#running-the-program)
-- [How It Works](#how-it-works)
-- [Code Structure](#code-structure)
-- [Code Explanation](#code-explanation)
-- [Output](#output)
-- [References](#references)
-- [Author](#Author)
 
 ## 📌 Features
 
