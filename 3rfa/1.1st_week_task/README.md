@@ -6,13 +6,13 @@ This ROS 2 project uses `turtlesim` to draw the name **"ARAFA"** using multiple 
 
 ## Table of Contents
 
-- [Features](#Features)
-- [Dependencies](#Dependencies)
-- [Installation](#Installation)
-  - [Running the Program](#Running-the-Program)
-  - [How It Works](#How-It-Works)
-  - [Code Structure](#Code-Structure)
-- [Code Explanation](#Code-Explanation)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Running the Program](#running-the-program)
+- [How It Works](#how-it-works)
+- [Code Structure](#code-structure)
+- [Code Explanation](#code-explanation)
 - [Output](#output)
 - [References](#references)
 - [Author](#Author)
