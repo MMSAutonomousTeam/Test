@@ -104,7 +104,10 @@ self.kill_turt('turtle1')
 ##### Each function moves the turtle to draw a specific letter(but to do that you should know the turtlesim dimensions):
 
 This way TurtleSim field will be divided into 9 areas, as shown below:
+
+
 ![Alt text](https://github.com/MMSAutonomousTeam/Test/blob/0f19006d869143628a329f2b903f423b4eb489b4/3rfa/1.1st_week_task/images/1.png)
+
 
 #### Example: Drawing 'A'
 
@@ -134,7 +137,10 @@ self.pub.publish(msg)
 ## 📌 Output
 
 After running the script, the turtles will draw the name **"ARAFA"** in different colors inside the `<span>turtlesim</span>` window. Each letter will be drawn by a different turtle, creating a colorful and dynamic effect.
+
+
 ![Alt text](https://github.com/MMSAutonomousTeam/Test/blob/0f19006d869143628a329f2b903f423b4eb489b4/3rfa/1.1st_week_task/images/2.png)
+
 
 ## 📚 References
 
