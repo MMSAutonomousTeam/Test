@@ -1,0 +1,23 @@
+[0.707s] Invoking command in '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/src/arafa_package': PYTHONPATH=/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arafa_package build --build-base /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/build install --record /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/install.log --single-version-externally-managed install_data
+[0.987s] running egg_info
+[0.988s] writing ../../build/arafa_package/arafa_package.egg-info/PKG-INFO
+[0.988s] writing dependency_links to ../../build/arafa_package/arafa_package.egg-info/dependency_links.txt
+[0.988s] writing entry points to ../../build/arafa_package/arafa_package.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/arafa_package/arafa_package.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/arafa_package/arafa_package.egg-info/top_level.txt
+[0.991s] reading manifest file '../../build/arafa_package/arafa_package.egg-info/SOURCES.txt'
+[0.995s] adding license file 'LICENSE'
+[0.996s] writing manifest file '../../build/arafa_package/arafa_package.egg-info/SOURCES.txt'
+[0.996s] running build
+[0.996s] running build_py
+[0.997s] running install
+[0.997s] running install_lib
+[0.998s] running install_data
+[0.998s] running install_egg_info
+[1.000s] removing '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/python3.10/site-packages/arafa_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.001s] Copying ../../build/arafa_package/arafa_package.egg-info to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/python3.10/site-packages/arafa_package-0.0.0-py3.10.egg-info
+[1.002s] running install_scripts
+[1.026s] Installing demo_node script to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/arafa_package
+[1.026s] Installing my_name script to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/arafa_package
+[1.027s] writing list of installed files to '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/install.log'
+[1.051s] Invoked command in '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/src/arafa_package' returned '0': PYTHONPATH=/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arafa_package build --build-base /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/build install --record /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/install.log --single-version-externally-managed install_data

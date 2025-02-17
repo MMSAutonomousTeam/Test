@@ -1,0 +1,4 @@
+[console_scripts]
+demo_node = arafa_package.demo_node:main
+my_name = arafa_package.my_name:main
+

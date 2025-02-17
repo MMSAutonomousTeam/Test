@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/arafa_package/arafa_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/arafa_package/arafa_package.egg-info/dependency_links.txt
+writing entry points to ../../build/arafa_package/arafa_package.egg-info/entry_points.txt
+writing requirements to ../../build/arafa_package/arafa_package.egg-info/requires.txt
+writing top-level names to ../../build/arafa_package/arafa_package.egg-info/top_level.txt
+reading manifest file '../../build/arafa_package/arafa_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/arafa_package/arafa_package.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/python3.10/site-packages/arafa_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/arafa_package/arafa_package.egg-info to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/python3.10/site-packages/arafa_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo_node script to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/arafa_package
+Installing my_name script to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/install/arafa_package/lib/arafa_package
+writing list of installed files to '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/1.1st_week_task/task_ws/build/arafa_package/install.log'
