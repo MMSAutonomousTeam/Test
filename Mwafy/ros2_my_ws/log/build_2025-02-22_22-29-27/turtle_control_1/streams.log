@@ -1,0 +1,25 @@
+[0.573s] Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1': PYTHONPATH=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_1 build --build-base /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/build install --record /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/install.log --single-version-externally-managed install_data
+[0.729s] running egg_info
+[0.729s] writing ../../build/turtle_control_1/turtle_control_1.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../../build/turtle_control_1/turtle_control_1.egg-info/dependency_links.txt
+[0.730s] writing entry points to ../../build/turtle_control_1/turtle_control_1.egg-info/entry_points.txt
+[0.730s] writing requirements to ../../build/turtle_control_1/turtle_control_1.egg-info/requires.txt
+[0.730s] writing top-level names to ../../build/turtle_control_1/turtle_control_1.egg-info/top_level.txt
+[0.732s] reading manifest file '../../build/turtle_control_1/turtle_control_1.egg-info/SOURCES.txt'
+[0.732s] writing manifest file '../../build/turtle_control_1/turtle_control_1.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.733s] running install
+[0.733s] running install_lib
+[0.734s] running install_data
+[0.734s] running install_egg_info
+[0.736s] removing '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages/turtle_control_1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.736s] Copying ../../build/turtle_control_1/turtle_control_1.egg-info to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages/turtle_control_1-0.0.0-py3.10.egg-info
+[0.736s] running install_scripts
+[0.753s] Installing drawing_A script to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/turtle_control_1
+[0.753s] Installing drawing_D script to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/turtle_control_1
+[0.753s] Installing drawing_E script to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/turtle_control_1
+[0.754s] Installing drawing_H script to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/turtle_control_1
+[0.754s] Installing drawing_M script to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/turtle_control_1
+[0.754s] writing list of installed files to '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/install.log'
+[0.769s] Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/turtle_control_1' returned '0': PYTHONPATH=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/turtle_control_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_1 build --build-base /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/build install --record /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/turtle_control_1/install.log --single-version-externally-managed install_data
