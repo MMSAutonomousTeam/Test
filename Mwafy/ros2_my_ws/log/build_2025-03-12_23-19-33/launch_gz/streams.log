@@ -1,0 +1,25 @@
+[0.531s] Invoking command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/launch_gz': PYTHONPATH=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_gz build --build-base /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/build install --record /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.664s] writing ../../build/launch_gz/launch_gz.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/launch_gz/launch_gz.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/launch_gz/launch_gz.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/launch_gz/launch_gz.egg-info/requires.txt
+[0.664s] writing top-level names to ../../build/launch_gz/launch_gz.egg-info/top_level.txt
+[0.665s] reading manifest file '../../build/launch_gz/launch_gz.egg-info/SOURCES.txt'
+[0.665s] adding license file 'LICENSE'
+[0.665s] writing manifest file '../../build/launch_gz/launch_gz.egg-info/SOURCES.txt'
+[0.665s] running build
+[0.665s] running build_py
+[0.665s] copying launch_gz/load_robot_description.py -> /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/build/lib/launch_gz
+[0.666s] running install
+[0.666s] running install_lib
+[0.666s] copying /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/build/lib/launch_gz/load_robot_description.py -> /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/python3.10/site-packages/launch_gz
+[0.666s] byte-compiling /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/python3.10/site-packages/launch_gz/load_robot_description.py to load_robot_description.cpython-310.pyc
+[0.667s] running install_data
+[0.667s] running install_egg_info
+[0.668s] removing '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/python3.10/site-packages/launch_gz-0.0.0-py3.10.egg-info' (and everything under it)
+[0.668s] Copying ../../build/launch_gz/launch_gz.egg-info to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/python3.10/site-packages/launch_gz-0.0.0-py3.10.egg-info
+[0.668s] running install_scripts
+[0.681s] Installing load_robot_description script to /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/launch_gz
+[0.682s] writing list of installed files to '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/install.log'
+[0.701s] Invoked command in '/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/src/launch_gz' returned '0': PYTHONPATH=/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedmwafy/Test/Mwafy/ros2_my_ws/install/launch_gz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_gz build --build-base /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/build install --record /home/ahmedmwafy/Test/Mwafy/ros2_my_ws/build/launch_gz/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+load_robot_description = my_robot_package.load_robot_description:main
+
