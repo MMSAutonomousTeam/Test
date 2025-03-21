@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-23a2e812037829f6bc16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "roboy_info_system_msg__py",
+					"jsonFile" : "directory-roboy_info_system_msg__py-1b2351bb953d3606ea2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/roboy_info_system_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "roboy_info_system_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_roboy_info_system_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_roboy_info_system_msg_egg-5f56f5d3e285cd8f6bd4.json",
+					"name" : "ament_cmake_python_build_roboy_info_system_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_roboy_info_system_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_roboy_info_system_msg-7aab45ac1b42847f613d.json",
+					"name" : "ament_cmake_python_copy_roboy_info_system_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg-752677e550da6b6abfd6.json",
+					"name" : "roboy_info_system_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__cpp-e8fa5fff4ae480ab083c.json",
+					"name" : "roboy_info_system_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "roboy_info_system_msg__py::@059cbe2b748b978ee420",
+					"jsonFile" : "target-roboy_info_system_msg__py-1d7147e36b5e74dd14d0.json",
+					"name" : "roboy_info_system_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_generator_c-24673dc52e0675f51d39.json",
+					"name" : "roboy_info_system_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_generator_py-42507e792bbea597dce8.json",
+					"name" : "roboy_info_system_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_c-d8c34e21ba0d836adca7.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_c__pyext-f173047d81e158a54456.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_cpp-10f17a88f45af07ddaa5.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_fastrtps_c-c042af8f13cf74612e1c.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_fastrtps_c__pyext-3dfab14aa3433b9a340d.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp-fd1c4b5662f85fb3cb2d.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_introspection_c-d154d14eeaa91d7bafe6.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_introspection_c__pyext-7bac1413ee7feb581fff.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg__rosidl_typesupport_introspection_cpp-496635468c480a812db0.json",
+					"name" : "roboy_info_system_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roboy_info_system_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roboy_info_system_msg_uninstall-7bf83b2e58a6992a7488.json",
+					"name" : "roboy_info_system_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-09a8ce92cac5e3854951.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg",
+		"source" : "/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/src/roboy_info_system_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

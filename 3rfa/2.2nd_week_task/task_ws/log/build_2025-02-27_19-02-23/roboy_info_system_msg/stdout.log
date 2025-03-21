@@ -1,0 +1,13 @@
+[  3%] Built target roboy_info_system_msg__cpp
+[  6%] [32mBuilding C object CMakeFiles/roboy_info_system_msg__rosidl_generator_c.dir/rosidl_generator_c/roboy_info_system_msg/msg/detail/robot_alert__functions.c.o[0m
+[  6%] Built target ament_cmake_python_copy_roboy_info_system_msg
+[  9%] [32mBuilding CXX object CMakeFiles/roboy_info_system_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboy_info_system_msg/msg/detail/robot_alert__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/roboy_info_system_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboy_info_system_msg/msg/robot_alert__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboy_info_system_msg/msg/detail/dds_fastrtps/robot_alert__type_support.cpp.o[0m
+running egg_info
+writing roboy_info_system_msg.egg-info/PKG-INFO
+writing dependency_links to roboy_info_system_msg.egg-info/dependency_links.txt
+writing top-level names to roboy_info_system_msg.egg-info/top_level.txt
+reading manifest file 'roboy_info_system_msg.egg-info/SOURCES.txt'
+writing manifest file 'roboy_info_system_msg.egg-info/SOURCES.txt'
+[ 16%] Built target ament_cmake_python_build_roboy_info_system_msg_egg

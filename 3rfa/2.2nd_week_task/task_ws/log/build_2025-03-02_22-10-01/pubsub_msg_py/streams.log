@@ -1,0 +1,38 @@
+[0.736s] Invoking command in '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/src/pubsub_msg_py': PYTHONPATH=/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_msg_py build --build-base /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build install --record /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/install.log --single-version-externally-managed install_data
+[1.021s] running egg_info
+[1.022s] creating ../../build/pubsub_msg_py/pubsub_msg_py.egg-info
+[1.022s] writing ../../build/pubsub_msg_py/pubsub_msg_py.egg-info/PKG-INFO
+[1.022s] writing dependency_links to ../../build/pubsub_msg_py/pubsub_msg_py.egg-info/dependency_links.txt
+[1.022s] writing entry points to ../../build/pubsub_msg_py/pubsub_msg_py.egg-info/entry_points.txt
+[1.023s] writing requirements to ../../build/pubsub_msg_py/pubsub_msg_py.egg-info/requires.txt
+[1.023s] writing top-level names to ../../build/pubsub_msg_py/pubsub_msg_py.egg-info/top_level.txt
+[1.023s] writing manifest file '../../build/pubsub_msg_py/pubsub_msg_py.egg-info/SOURCES.txt'
+[1.025s] reading manifest file '../../build/pubsub_msg_py/pubsub_msg_py.egg-info/SOURCES.txt'
+[1.025s] adding license file 'LICENSE'
+[1.026s] writing manifest file '../../build/pubsub_msg_py/pubsub_msg_py.egg-info/SOURCES.txt'
+[1.026s] running build
+[1.026s] running build_py
+[1.026s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build
+[1.026s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build/lib
+[1.026s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build/lib/pubsub_msg_py
+[1.026s] copying pubsub_msg_py/robot_alert_test.py -> /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build/lib/pubsub_msg_py
+[1.026s] copying pubsub_msg_py/__init__.py -> /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build/lib/pubsub_msg_py
+[1.027s] running install
+[1.027s] running install_lib
+[1.028s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages/pubsub_msg_py
+[1.028s] copying /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build/lib/pubsub_msg_py/robot_alert_test.py -> /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages/pubsub_msg_py
+[1.028s] copying /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build/lib/pubsub_msg_py/__init__.py -> /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages/pubsub_msg_py
+[1.029s] byte-compiling /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages/pubsub_msg_py/robot_alert_test.py to robot_alert_test.cpython-310.pyc
+[1.029s] byte-compiling /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages/pubsub_msg_py/__init__.py to __init__.cpython-310.pyc
+[1.029s] running install_data
+[1.029s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/share/ament_index
+[1.030s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/share/ament_index/resource_index
+[1.030s] creating /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/share/ament_index/resource_index/packages
+[1.030s] copying resource/pubsub_msg_py -> /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/share/ament_index/resource_index/packages
+[1.030s] copying package.xml -> /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/share/pubsub_msg_py
+[1.030s] running install_egg_info
+[1.032s] Copying ../../build/pubsub_msg_py/pubsub_msg_py.egg-info to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages/pubsub_msg_py-0.0.0-py3.10.egg-info
+[1.033s] running install_scripts
+[1.058s] Installing robot_alert_test script to /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/pubsub_msg_py
+[1.058s] writing list of installed files to '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/install.log'
+[1.082s] Invoked command in '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/src/pubsub_msg_py' returned '0': PYTHONPATH=/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/install/pubsub_msg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_msg_py build --build-base /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/build install --record /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/pubsub_msg_py/install.log --single-version-externally-managed install_data

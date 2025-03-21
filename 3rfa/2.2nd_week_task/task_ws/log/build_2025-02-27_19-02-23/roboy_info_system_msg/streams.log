@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg -- -j12 -l12
+[0.061s] [  3%] Built target roboy_info_system_msg__cpp
+[0.061s] [  6%] [32mBuilding C object CMakeFiles/roboy_info_system_msg__rosidl_generator_c.dir/rosidl_generator_c/roboy_info_system_msg/msg/detail/robot_alert__functions.c.o[0m
+[0.069s] [  6%] Built target ament_cmake_python_copy_roboy_info_system_msg
+[0.078s] In file included from [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_generator_c/roboy_info_system_msg/msg/detail/robot_alert__functions.h:19[m[K,
+[0.078s]                  from [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_generator_c/roboy_info_system_msg/msg/detail/robot_alert__functions.c:4[m[K:
+[0.078s] [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_generator_c/roboy_info_system_msg/msg/detail/robot_alert__struct.h:26:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/time__struct.h: No such file or directory
+[0.078s]    26 | #include [01;31m[K"std_msgs/msg/detail/time__struct.h"[m[K
+[0.078s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.078s] compilation terminated.
+[0.079s] gmake[2]: *** [CMakeFiles/roboy_info_system_msg__rosidl_generator_c.dir/build.make:137: CMakeFiles/roboy_info_system_msg__rosidl_generator_c.dir/rosidl_generator_c/roboy_info_system_msg/msg/detail/robot_alert__functions.c.o] Error 1
+[0.080s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/roboy_info_system_msg__rosidl_generator_c.dir/all] Error 2
+[0.080s] gmake[1]: *** Waiting for unfinished jobs....
+[0.081s] [  9%] [32mBuilding CXX object CMakeFiles/roboy_info_system_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboy_info_system_msg/msg/detail/robot_alert__type_support.cpp.o[0m
+[0.082s] [ 12%] [32mBuilding CXX object CMakeFiles/roboy_info_system_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboy_info_system_msg/msg/robot_alert__type_support.cpp.o[0m
+[0.082s] [ 16%] [32mBuilding CXX object CMakeFiles/roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboy_info_system_msg/msg/detail/dds_fastrtps/robot_alert__type_support.cpp.o[0m
+[0.146s] In file included from [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_typesupport_cpp/roboy_info_system_msg/msg/robot_alert__type_support.cpp:7[m[K:
+[0.146s] [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_generator_cpp/roboy_info_system_msg/msg/detail/robot_alert__struct.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/time__struct.hpp: No such file or directory
+[0.146s]    24 | #include [01;31m[K"std_msgs/msg/detail/time__struct.hpp"[m[K
+[0.146s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.146s] compilation terminated.
+[0.148s] In file included from [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_typesupport_fastrtps_cpp/roboy_info_system_msg/msg/detail/robot_alert__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.148s]                  from [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_typesupport_fastrtps_cpp/roboy_info_system_msg/msg/detail/dds_fastrtps/robot_alert__type_support.cpp:4[m[K:
+[0.148s] [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_generator_cpp/roboy_info_system_msg/msg/detail/robot_alert__struct.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/time__struct.hpp: No such file or directory
+[0.148s]    24 | #include [01;31m[K"std_msgs/msg/detail/time__struct.hpp"[m[K
+[0.148s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.148s] compilation terminated.
+[0.148s] gmake[2]: *** [CMakeFiles/roboy_info_system_msg__rosidl_typesupport_cpp.dir/build.make:118: CMakeFiles/roboy_info_system_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboy_info_system_msg/msg/robot_alert__type_support.cpp.o] Error 1
+[0.148s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/roboy_info_system_msg__rosidl_typesupport_cpp.dir/all] Error 2
+[0.149s] gmake[2]: *** [CMakeFiles/roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp.dir/build.make:123: CMakeFiles/roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboy_info_system_msg/msg/detail/dds_fastrtps/robot_alert__type_support.cpp.o] Error 1
+[0.149s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/roboy_info_system_msg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.154s] In file included from [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_typesupport_introspection_cpp/roboy_info_system_msg/msg/detail/robot_alert__type_support.cpp:12[m[K:
+[0.154s] [01m[K/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg/rosidl_generator_cpp/roboy_info_system_msg/msg/detail/robot_alert__struct.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/time__struct.hpp: No such file or directory
+[0.154s]    24 | #include [01;31m[K"std_msgs/msg/detail/time__struct.hpp"[m[K
+[0.154s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.154s] compilation terminated.
+[0.155s] gmake[2]: *** [CMakeFiles/roboy_info_system_msg__rosidl_typesupport_introspection_cpp.dir/build.make:123: CMakeFiles/roboy_info_system_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboy_info_system_msg/msg/detail/robot_alert__type_support.cpp.o] Error 1
+[0.155s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/roboy_info_system_msg__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.363s] running egg_info
+[0.364s] writing roboy_info_system_msg.egg-info/PKG-INFO
+[0.364s] writing dependency_links to roboy_info_system_msg.egg-info/dependency_links.txt
+[0.364s] writing top-level names to roboy_info_system_msg.egg-info/top_level.txt
+[0.366s] reading manifest file 'roboy_info_system_msg.egg-info/SOURCES.txt'
+[0.367s] writing manifest file 'roboy_info_system_msg.egg-info/SOURCES.txt'
+[0.393s] [ 16%] Built target ament_cmake_python_build_roboy_info_system_msg_egg
+[0.394s] gmake: *** [Makefile:146: all] Error 2
+[0.397s] Invoked command in '/home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arafa/Desktop/Autonomous/MMS/Test/3rfa/2.2nd_week_task/task_ws/build/roboy_info_system_msg -- -j12 -l12

@@ -1,0 +1,8 @@
+setup.py
+roboy_info_system_msg/__init__.py
+roboy_info_system_msg.egg-info/PKG-INFO
+roboy_info_system_msg.egg-info/SOURCES.txt
+roboy_info_system_msg.egg-info/dependency_links.txt
+roboy_info_system_msg.egg-info/top_level.txt
+roboy_info_system_msg/msg/__init__.py
+roboy_info_system_msg/msg/_robot_alert.py

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_alert_test = pubsub_msg_py.robot_alert_test:main
+

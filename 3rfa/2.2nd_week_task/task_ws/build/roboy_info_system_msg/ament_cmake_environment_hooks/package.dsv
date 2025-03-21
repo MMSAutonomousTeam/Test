@@ -1,0 +1,4 @@
+source;share/roboy_info_system_msg/local_setup.bash
+source;share/roboy_info_system_msg/local_setup.dsv
+source;share/roboy_info_system_msg/local_setup.sh
+source;share/roboy_info_system_msg/local_setup.zsh

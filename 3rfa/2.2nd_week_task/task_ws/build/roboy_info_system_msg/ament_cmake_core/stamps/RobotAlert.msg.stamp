@@ -1,0 +1,2 @@
+int32 alert_level
+string alert_message
